@@ -32,7 +32,7 @@ exe = EXE(
     target_arch=None,
     codesign_identity=None,
     entitlements_file=None,
-    icon='PrintBot.ico',
+    icon=['PrintBot.ico'],
 )
 coll = COLLECT(
     exe,
